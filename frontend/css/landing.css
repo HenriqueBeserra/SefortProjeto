@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+   background-color: white;
+}
+
+ .cabeçalho_nome_logo  {
+    width: 100%;
+    height: 4em;
+    background-color: black;
+} 
+
+.nome_da_facul {
+    width: 50%;
+    height: 100%;
+    margin: 0 10%;
+    padding: 15px 10px;
+
+    font-size: 1.4em;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+}
+
+.imagem {
+    width: 10%;
+    height: 80%;
+    margin: -4em 6%;
+    padding: 10px 10px ;
+}
+
+.imagem > img {
+    margin: 0 6%;
+    width: 1em;
+}
+
+
+
+.left-infos > .left-list {
+    position: absolute;
+    left: 12%;
+    top: 72%;
+    font-size: 1.4em;
+}
+
+.left-h1 {
+    width: 58%;
+    height: 100%;
+}
+
+.left-h1-name {
+    width: 20%;
+    color: #0495AF;
+    font-size: 5.2em;
+    font-family: 'Nova Square', sans-serif;
+    font-weight: bold;
+
+    margin: 18% 22% ;
+
+}
+
+.left-p-igreja {
+    color: #045260;
+    font-size: 2.5em;
+    font-family: 'Dancing Script', cursive;
+
+    margin: -21.2% 22% 10% 24% ;
+}
+
+.left-p-cursos {
+    color: #045260;
+    margin: -8% 22% 10% 24% ;
+    font-size: 1.2em;
+}
+
+.left-images-efects > img {
+    width: 20%;
+    height: 44.7%;
+    position: absolute;
+    top: 26em;
+}
+
+.left-list {
+    color: #045260; 
+    list-style-type: none;
+}
+
+.left-images-students {
+    width: 50%;
+    height: 100%;
+    margin-top: 0 0 0 0;
+}
+
+.left-images-students > .first {
+    width: 14em;
+    margin-top: -25em;
+    margin-left: 84%;
+
+}
