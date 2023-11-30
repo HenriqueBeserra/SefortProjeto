@@ -55,7 +55,7 @@ body {
     font-family: 'Nova Square', sans-serif;
     font-weight: bold;
 
-    margin: 18% 22% ;
+    margin: 14% 21% ;
 
 }
 
@@ -64,12 +64,12 @@ body {
     font-size: 2.5em;
     font-family: 'Dancing Script', cursive;
 
-    margin: -21.2% 22% 10% 24% ;
+    margin: -16.5% 22% 10% 20% ;
 }
 
 .left-p-cursos {
     color: #045260;
-    margin: -8% 22% 10% 24% ;
+    margin: -8% 22% 10% 20% ;
     font-size: 1.2em;
 }
 
@@ -83,6 +83,8 @@ body {
 .left-list {
     color: #045260; 
     list-style-type: none;
+    margin-left: -2%;
+    margin-top: -2%;
 }
 
 .left-images-students {
@@ -92,8 +94,14 @@ body {
 }
 
 .left-images-students > .first {
-    width: 14em;
-    margin-top: -25em;
-    margin-left: 84%;
+    width: 12em;
+    margin-top: -30%;
+    margin-left: 82%;
+
+}
+.left-images-students > .second {
+    width: 18em;
+    margin-top: -10.7em;
+    margin-left: 100%;
 
 }
