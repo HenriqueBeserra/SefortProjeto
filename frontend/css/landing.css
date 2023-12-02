@@ -35,6 +35,29 @@ body {
     width: 1em;
 }
 
+.left-nav > a{
+    width: 40%;
+    height: 100%;
+    margin: 10em 10px;
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+
+    position: relative;
+    top: 2em;
+    left: 60em;
+
+    padding: 2% 25px;
+
+   
+}
+
+a:hover {
+    color: rgba(0, 145, 255, 0.537);    
+    transition: 0.4s;
+}
+
 .left-section {
     width: 67%;
     height: 120%;
@@ -229,4 +252,5 @@ footer > nav {
         height: 38%;
     }
 }
+
 

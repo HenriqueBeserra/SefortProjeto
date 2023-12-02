@@ -1,4 +1,5 @@
 
+//funções de coleta de informações de usuário
 function organizaIformacoes (value1, value2, value3) {
 
     let bd  = [];
@@ -31,8 +32,10 @@ function limpaForm () {
     
     matricula.value = '';
     senha.value     = '';
-}
+};
 
+
+//funções de controle do sistema
 
 
 

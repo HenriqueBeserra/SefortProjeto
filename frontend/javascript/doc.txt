@@ -1,0 +1,23 @@
+Engenharia de conexão com api e entrega das paginas de aulas
+
+    A idéia é criam um ambiente seguro onde as informações possam trafegar sem que sejam percebidas e cheguem da melhor forma
+a API que valida todos os dados.
+
+    As funções do arquivo controlers.js coletam os dados e retornam eles de forma segura para a camada de conexão com a api que 
+será feita pelas funções do arquivo connection.js, é nele onde toda a conexão com a api ocerrerá validando os dados e recebendo 
+de volta a permissão ou não para continuar com o processo.
+
+    Se o usuário é validado existirá uma função no connection que passará todos os dados de forma segura para o arquivo views.js
+que cuidará de renderizar as páginas de acordo com os dados recebidos!
+
+
+1 passo - a página html chama uma função de conexão no arquivo connection.js que chamara uma função da camada de controle para que 
+colete os dados e retorne os dados do usuário de forma segura,
+
+2 passo - a camada de conexão vai tratar esses dados e depois estabelecer uma conexão segura com a API que fornce os dados dos alunos 
+mariculados
+
+3 passo - espera a resposta da api com a validação e em seguida os dados que vem de cada aluno
+
+4 passo - a camada de views fica observando o passo 3 acontecer para então poder receber os dados da api e começar a renderizar as páginas
+de acordo com o aluno.
