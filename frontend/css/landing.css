@@ -71,7 +71,7 @@ a:hover {
     position: absolute;
     left: 12%;
     top: 72%;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 
@@ -80,9 +80,9 @@ a:hover {
     flex-direction: column;
     list-style-type: none;
     justify-content: space-around;
-    gap: 11px;
+    gap: 5px;
     position: relative;
-    top: 1.59em;
+    top: 1.5em;
     left: 8em;
     
 }
@@ -177,7 +177,7 @@ a:hover {
     position: absolute;
     top: 12em;
     left: 63%;
-    border-left: 1px solid rgba(137, 43, 226, 0.582);
+    border-left: 1px solid rgba(49, 43, 226, 0.19);
 }
 
 .rigth-nome-facul {
@@ -187,7 +187,7 @@ a:hover {
 
 .rigth-form {
     margin: 10% 10%;
-    color: #045260;
+    color: #17a3bc;
 }
 
 .rigth-fieldset {
@@ -199,7 +199,7 @@ a:hover {
 
 .rigth-fieldset > .rigth-input-text {
     border: none;
-    border-bottom: 2px solid rgb(43, 76, 226);
+    border-bottom: 2px solid rgba(43, 76, 226, 0.499);
 }
 
 .rigth-fieldset > .rigth-input-text:focus {
