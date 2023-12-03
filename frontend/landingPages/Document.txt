@@ -1,7 +1,11 @@
 Landing page para o SEFORT 
 
-Busca ser simples e atraentre, de fácil ultilização e de fácio desenvolvimento
+Busca ser simples e atraentre, de fácil ultilização e de fácil desenvolvimento
 
 Paleta de cores: 
     Preto, azul marinho, azul elétrico, branco, azul piscina
+    
+
+Página inicial, um dos primeiros contatos com os estudantes, precisa ser atraente, objetiva e fácil de usar intuitivamente.
+
     
