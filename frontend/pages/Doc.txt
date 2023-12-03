@@ -1,0 +1,10 @@
+Páginas que serão renderizadas pela camada de views com as informações de aulas e dos cursos por aluno.
+
+    Serão páginas desenvolvidas para serem esqueletos e molduras que receberão os dados dos alunos e de seus respectivos 
+cursos, responsabilidades da camada de views e controlers.
+
+- Precisa ter um espaço para o aluno ver seu curso e qual é sua matéria atual;
+- Listas de instruções para acesso as aulas;
+- Lista de aulas com botões que caregam o material específico na página;
+- Caixa de texto para feedback sobre as aulas;
+
