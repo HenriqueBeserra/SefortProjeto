@@ -1,4 +1,14 @@
 Páginas que ficarão públicas
 
-    Serão páginas também de primeiro contato com o aluno, precisando então se apresentar simple, informativas, intuitivas e o mais 
+    Serão páginas também de primeiro contato com o aluno, precisando então se apresentar simples, informativas, intuitivas e o mais 
 convidativa possível.
+
+DEVE CONTER: 
+- Informações sobre a Faculdade;
+- Informações sobre os professores;
+- Informações sobre o objetivo dos cursos;
+
+- Informações sobre cada curso;
+- Valores das mensalidades;
+- Descrição de como deve ser feita a inscriçaõ;
+- Informações de contatos;
