@@ -35,7 +35,9 @@ function limpaForm () {
 };
 
 
-//funções de controle do sistema
+//Funções de controle do sistema
 
+// Funções de banco de dados
 
+// Funções de renderização
 
