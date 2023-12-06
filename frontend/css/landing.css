@@ -236,7 +236,7 @@ a:hover {
 footer {
     justify-content: center;
     width: 100%;
-    height: 3.5em;
+    height: 2em;
     background-color: rgba(252, 252, 252, 0.105);
     text-align: center;
     position: absolute;
@@ -251,7 +251,9 @@ footer > nav {
     color: #04526085 ;
 }
 
-@media screen and (max-width: 1716px) {
+
+
+@media screen and (max-width: 1534px) {
     
     .main-div-left-div-infos > .left-list {
         position: relative;
@@ -273,12 +275,12 @@ footer > nav {
         
     }
     .main-section-rigth{
-        width: 20%;
+        width: 30%;
     }
    
 
 }
-@media screen and (max-width: 1714px) {
+@media screen and (max-width: 1535px) {
     .main-div-left-images-efects > img {
         transition: 1s;
         opacity: 0;
@@ -287,6 +289,7 @@ footer > nav {
         transition: 1s;
         opacity: 0;
     }
+    
 }
 @media screen and (max-width: 1585px) {
     
@@ -308,6 +311,11 @@ footer > nav {
         position: relative;
         top: 1.7em;
         left: 8em;
+        
+    }
+    footer {
+        position: absolute;
+        bottom: 2em;
         
     }
 
@@ -378,7 +386,7 @@ footer > nav {
     footer {
         
         position: absolute;
-        bottom: 3em;
+        bottom: 0;
 
     }
 }
@@ -393,8 +401,8 @@ footer > nav {
     }
     footer {
         position: absolute;
-        bottom: 3em;
-        margin-bottom: -8em;
+        bottom: 0
+        
         
     }
 }
@@ -408,7 +416,7 @@ footer > nav {
     }
     footer {
         position: absolute;
-        bottom: 10em;
+        bottom: 0;
         
     }
 }
@@ -443,38 +451,93 @@ footer > nav {
 
     footer {
         position: absolute;
-        bottom: 10em;
+        bottom: 0;
         
     }
 }
 
 @media screen and (max-width: 1000px){
+    main {
+        margin-bottom: -100em;
+    }
+    
+    .header-page {
+        width: 100%;
+
+    }
+    
     .header-div-nome_da_facul{
         transition: 0.2s;
         transform:translateX(-6em) ;
         opacity: 0;
     }
+    
     .header-div-logo{
-        padding-left: 6%;
+        padding-left: 2%;
+    }
+    
+    .main-div-left-images-students >  .second {
+        display: none;
+    } 
+
+    .main-div-left-images-students >  .third {
+        display: none;
+    } 
+    
+    .main-div-left-div-infos > .left-list {
+        display: none;
+    }
+    
+
+    .ul-icons  {
+        display: none;
+    }
+
+    .main-div-left-titulos{
+        width: 70%;
+        transition: 0.8s;
+        position: relative;
+        top:2em;
+        left: 20%;
+        margin: 0 0 0 0;
+        padding-bottom: -10em;
+    }
+
+    .main-div-left-images-efects{
+        display: none;
+    }
+
+    .left-h1-nome {
+        font-size: 2em;
+        width: 20em;
+        padding: 0 auto;
+        
+    }
+
+    .left-p-igreja{
+        width:120%;
+        font-size: 20px;
     }
 
     .main-section-rigth{
         position: absolute;
-        left: 38em;
-        width: 50%;
-        margin-bottom: -20em;
+        top:15em;
+        left: 2em;
+        width: 90%;
+        border-right: 1px solid rgba(49, 43, 226, 0.19);
         
     }
-    .main-div-left-titulos{
-        width: 20%;
-        transition: 0.8s;
-        position: relative;
-        top:10em;
-        left: 4em;
-        padding-bottom: -10em;
+
+    .main-form-rigth {
+        margin-bottom: 20px;
+        margin-top: -2px;    
     }
 
-    .left-p-igreja{
-        width: 130%;
+    footer {
+        width: 90%;
+        font-size: 12px;
+        position: absolute;
+        bottom: 0;
+        
     }
 }
