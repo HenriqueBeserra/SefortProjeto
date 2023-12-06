@@ -11,7 +11,9 @@ body {
     background-color: black;
 } 
 
-.nome_da_facul {
+
+
+.header-div-nome_da_facul {
     width: 50%;
     height: 100%;
     margin: 0 10%;
@@ -23,14 +25,14 @@ body {
     font-style: italic;
 }
 
-.logo {
+.header-div-logo {
     width: 10%;
     height: 80%;
     margin: -4em 6%;
     padding: 10px 10px ;
 }
 
-.logo > img {
+.header-div-logo > img {
     margin: 0 6%;
     width: 1em;
 }
@@ -58,7 +60,7 @@ a:hover {
     transition: 0.4s;
 }
 
-.left-section {
+.main-section-left {
     width: 67%;
     height: 120%;
     margin-bottom: -20em;
@@ -67,7 +69,7 @@ a:hover {
     
 }
 
-.left-div-infos > .left-list {
+.main-div-left-div-infos > .left-list {
     position: absolute;
     left: 12%;
     top: 72%;
@@ -91,7 +93,7 @@ a:hover {
     color: blue;
 }
 
-.left-div-titulos {
+.main-div-left-titulos {
     width: 58%;
     height: 100%;
 }
@@ -121,7 +123,7 @@ a:hover {
     font-size: 1.2em;
 }
 
-.left-div-images-efects > img {
+.main-div-left-images-efects > img {
     width: 20%;
     height: 44.7%;
     position: absolute;
@@ -136,7 +138,7 @@ a:hover {
     margin-top: -2%;
 }
 
-.left-images-students {
+.main-div-left-images-students {
     width: 20%;
     height: 100%;
     position: absolute;
@@ -145,7 +147,7 @@ a:hover {
    padding-left: -30em;   
 }
 
-.left-images-students > .first {
+.main-div-left-images-students > .first {
     width: 12em;
     position: relative;
     top: 18em;
@@ -154,7 +156,7 @@ a:hover {
 
 }
 
-.left-images-students > .second {
+.main-div-left-images-students > .second {
     width: 19em;
     position: relative;
     top: 24em;
@@ -163,7 +165,7 @@ a:hover {
     padding-left: -40em;
 }
 
-.left-images-students > .third {
+.main-div-left-images-students > .third {
     width: 20em;
     position: absolute;
     top: 7em;
@@ -171,7 +173,7 @@ a:hover {
 
 }
 
-.rigth-section {
+.main-section-rigth {
     width: 33%;
     height: 60%;
     position: absolute;
@@ -180,12 +182,12 @@ a:hover {
     border-left: 1px solid rgba(49, 43, 226, 0.19);
 }
 
-.rigth-nome-facul {
+.main-rigth-nome-facul {
     margin: 10px 40%;
     color:rgb(48, 121, 231) ;
 }
 
-.rigth-form {
+.main-form-rigth {
     margin: 10% 10%;
     color: #17a3bc;
 }

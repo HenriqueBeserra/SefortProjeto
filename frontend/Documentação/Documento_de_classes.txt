@@ -6,7 +6,11 @@ Guia de classes para os desenvolvedores do sistema - Portal de aulunos do SEFORT
 GUIA DE NOMEAÇÃO DE CLASSES:
 
     Para a obtenção de um sistema organizado e manutenível precisamos fundamentar um padrão de criação de classes para os objetos das 
-páginas web, nesta seção estará disposto um guia de criação de classes de acordo com suas tags e funções na página.
+páginas web, nesta seção estará disposto um guia de criação de classes de acordo com suas tags e funções na página. 
+    As classes servem para nomear os elementos, tornando eles visíveis para a folha de estilos(css) O atributo global class é uma lista das classes de um elemento, 
+separada por espaços. Classes permitem a CSS e Javascript selecionar e acessar elementos específicos através dos seletores de classe ou funções como o método 
+DOM document.getElementsByClassName. Apesar da especificação não impor requesitos sobre os nomes de classes, é considerada boa prática usar nomes que descrevam 
+o propósito semântico do elemento.   
 
 PADRÕES DE NOMEAÇÃO DE CLASSES:
  -  Para nomear um objeto levamos em conta a sua tag, o seu parentesco DOM (father, child) e a sua função dentro da página web.
@@ -25,47 +29,20 @@ PADRÕES DE NOMEAÇÃO DE CLASSES:
         <main><section><nav> => class='main-nav-aulas' ou class='main-nav-links-youtube' 
         <main><section><form> => class='main-form-login' ou class='main-form-contatos ou class='main-rigth-form-feedback'
 
-
-
-ESTRUTURA DE PESQUISA DE CLASSES:
-
-    Nesta seção estará disposta para pesquisa toda a estrutura de classes do sistema, facilitando a compreenssão, pesquisa e manutenção do
-sistema.
-
-    As classes estarão descritas de forma a sabermos qual o diretório, quais as páginas, qual a tag, sua sua posição ordinária e qual a sua
-classe com descrições opcionais.
-
-    Ex: > arquivo > tag(posição da tag) => classe (Descrição opcional);
-        > sobre > div(5) => 'nome_da_facul'
-
-    Serão divididos por diretório:
-        todos do diretório public juntos:
-        Ex:  > ... > .... => ....;
-             > ... > .... => ....;
+ -  Tags de elementos dentro de divs como 'h1, h2, p e outros elementos podem ser nomeados segundo seu propósito no sistema, e sua posição
+    seja ela ordinária ou  no espaço, como: primeiro, segundo, ou direita, esquerda.
+        <main><section><div><h1> => class'left-nome-da-instituição'
+        
+ -  As classes adicionais, aquelas que podem ser adicionadas depois através de código javascript, devem ser nomeadas segundo sua função 
+    mais a indicação "active", ex:
+        <section><div> => class='main-div-curiosidades model-active' ou class='main-left-description model-referencias-active' ou
+                          class='main-rigth-form-login model-usurio-active' 
 
 
 
+    Quando as classes são padronizadas segundo este documento o sistema se torna oraganizado, legível e de fácil manutenção, já que as classes 
+dos elementos estão bem estruturadas e descritas de acordo com sua posição e função no sistema. A criatividade na hora de nomear os elementos 
+é válida, contudo as classes devem representar o elemento e seu propósito dentro do sistema, se for preciso nomear o elemento de forma mais específica
+ou de uma forma mais livre podemos usar o atributo -name ou o atributo -id.
 
-Inicio:
 
-Landing Page, sobre:
-
-    Diretório: landingPages, public:
-    
-    @extends-landing_page-sobre:
-
-    headers: 
-    > landing_page > section(1) => 'header_page' (Seções de cabeçalho);
-    > landing_page > div(1) => 'nome_da_facul' (Nomme da faculdade no cabeçalho);
-    > landing_page > div(2) => 'logo' (Imagem da logo da faculdade);
-    > landing_page > nav(1) => 'header-nav' (Grupo de tags de navegação);
-    > landing_page > @itens_da_nav => 'header-nav-{ primero, segundo, terceiro..., n };
-
-    
-    @only-landing_page:
-    
-    main:
-    > landing_page  > section(1) => 'left-section' (Seção de conteúdos que estão dispostos no lado esquerdo);
-    > ...           > div(1) => 'left-div-titulos';
-    > ...           > h1(1) => 'left-h1-nome';
-    > ...           > p(1) => 'left-p-igreja';

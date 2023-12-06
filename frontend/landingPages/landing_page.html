@@ -12,8 +12,8 @@
     
     <header>
         <section class="header-page">
-            <div class="nome_da_facul">Seminário Sefort</div>
-            <div class="logo "><img src="../views/imgs/sefort_logo.png" alt="Imagem de cruz, logo da instituição"></div> 
+            <div class="header-div-nome_da_facul">Seminário Sefort</div>
+            <div class="header-div-logo "><img src="../views/imgs/sefort_logo.png" alt="Imagem de cruz, logo da instituição"></div> 
 
             <nav class="header-nav">
                 <a href="../public/sobre.html">Sobre o Sefort</a>
@@ -26,21 +26,21 @@
         </section>
     </header>
     <main>
-        <section class="left-section">
+        <section class="main-section-left">
             
-            <div class="left-div-titulos">
+            <div class="main-div-left-titulos">
                 <h1 class="left-h1-nome">Seminário Teológico</h1>
                 <p class="left-p-igreja">Igreja Pentecostal</p>
                 <p class="left-p-cursos">Cursos - Médio e Bacharel em Teologia</p>
             </div>
 
-            <div class="left-div-images-efects">
+            <div class="main-div-left-images-efects">
                 <img src="../views/imgs/linhas-azuis-removebg-preview.png" alt="">
             </div>
        
-            <section class="description-left">
+            <section class="main-section-description-left">
                 
-                <div class="left-div-infos">
+                <div class="main-div-left-div-infos">
                     
                     <div class="left-icons">
                         <ul class="ul-icons">
@@ -59,26 +59,26 @@
                 </div>
             </section>
             <section>
-                <div class="left-images-students">
+                <div class="main-div-left-images-students">
                     <img class="third" src="../views/imgs/sefort-brasão.png" alt="">
                     <!-- <img class="first" src="../views/imgs/foto-sextavada2-sf.png" alt=""> -->
                     <img class="second" src="../views/imgs/foto-sextavada-sf.png" alt="">
                 </div>
             </section>
         </section>    
-        <section class="rigth-section">
+        <section class="main-section-rigth">
                 
-            <h2 class="rigth-nome-facul">SEFORT</h2>
+            <h2 class="main-rigth-nome-facul">SEFORT</h2>
             
-            <form action="" class="rigth-form">
+            <form action="" class="main-form-rigth">
                 <fieldset class="rigth-fieldset">
                     
                     <p>Para acessar sua área de aulas faça o Login</p>
                     <label for="numero-de-matricula">Número de matrícula</label>
-                    <input type="text" placeholder="N° Matrícula" name="numero-de-matricula" class="rigth-input-text" id="numero-de-matricula">
+                    <input type="text" placeholder="N° Matrícula" required="required" name="numero-de-matricula" class="rigth-input-text" id="numero-de-matricula">
 
                     <label for="senha">Senha</label>
-                    <input type="password" id="senha" class="rigth-input-text" name="pw" placeholder="Digite sua senha">
+                    <input type="password" id="senha" required="required" class="rigth-input-text" name="pw" placeholder="Digite sua senha">
 
                     <input type="button" name="Login"  value="Login" class="rigth-button" onclick="coletaInformacoes()">
 
