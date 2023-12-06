@@ -20,6 +20,7 @@ async function coletaInformacoes () {
     
     
     const processData = await verificaOsCampos(inputData, inputMatricula_value, organizaIformacoes)
+    limpaForm();
     return processData;
 
 }; 
@@ -27,10 +28,10 @@ async function coletaInformacoes () {
 function verificaOsCampos(mat, pwd, callback){
 
     if(mat === ''){
-        window.alert('preencha os campos')
+        window.alert('Preencha a Matrícula corretamente!')
     } 
     else if( pwd ===''){
-        window.alert('preencha os campos');
+        window.alert('Digite sua senha!');
     }
     else{
         callback(mat, pwd)
@@ -45,6 +46,7 @@ function limpaForm () {
     
     matricula.value = '';
     senha.value     = '';
+    
 };
 
 
