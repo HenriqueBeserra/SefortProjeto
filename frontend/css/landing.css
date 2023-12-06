@@ -37,6 +37,10 @@ body {
     width: 1em;
 }
 
+.nav-not-visible {
+    visibility: hidden;
+}
+
 .header-nav > a{
     width: 40%;
     height: 100%;
@@ -218,6 +222,17 @@ a:hover {
     border-radius: 8px;
 }
 
+.rigth-button:hover{
+    transition: 0.8s;
+    height: 1.85em;
+    background-color: rgb(4, 175, 118);
+    color: aliceblue;
+}
+
+.rigth-button:active{
+    background-color: rgb(19, 76, 2);
+}
+
 footer {
     justify-content: center;
     width: 100%;
@@ -236,23 +251,230 @@ footer > nav {
     color: #04526085 ;
 }
 
-@media screen and (max-width:1246px) {
-    .left-images-students > .second {
-        width: 10em;
+@media screen and (max-width: 1716px) {
+    
+    .main-div-left-div-infos > .left-list {
         position: relative;
-        top: -14em;
-        left: 33em;
+        left: 16%;
+        top: -3em;
+        font-size: 1.2em;
     }
-    .left-images-students > .first {
-        width: 7.5em;
+    
+    
+    .ul-icons  {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        justify-content: space-around;
+        gap: 5px;
         position: relative;
-        top: -16em;
-        left: 36em;
+        top: 1.5em;
+        left: 8em;
+        
     }
-    .left-images-efects > img {
+    .main-section-rigth{
+        width: 20%;
+    }
+   
+
+}
+@media screen and (max-width: 1714px) {
+    .main-div-left-images-efects > img {
+        transition: 1s;
+        opacity: 0;
+    }
+    .main-div-left-images-students > .second {
+        transition: 1s;
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 1585px) {
+    
+    .main-div-left-div-infos > .left-list {
+        position: relative;
+        left: 16%;
+        top: -2.9em;
+        font-size: 1.2em;
+    }
+    
+
+    .ul-icons  {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        justify-content: space-around;
+        gap: 5px;
+        padding-left: 10px;
+        position: relative;
+        top: 1.7em;
+        left: 8em;
+        
+    }
+
+}
+@media screen and (max-width: 1524px) {
+    
+    .main-div-left-images-students > .second {
+        visibility: hidden;
+    }
+    
+   .main-div-left-images-students >  .third {
+        transition: 0.2s;
+        width: 22em;
+        position: absolute;
+        top: 7em;
+        left: 2em;
+    }
+    .main-div-left-images-efects > img {
         width: 15%;
         height: 38%;
     }
+    footer {
+        position: absolute;
+        bottom: 2em;
+        
+    }
 }
 
+@media screen and (max-width: 1316px){
 
+    .main-div-left-images-students >  .third {
+        transition: 0.4s;
+        opacity: 0;
+        
+    } 
+    
+    .main-div-left-div-infos > .left-list {
+        transition: 1s;
+        opacity: 0;
+    }
+    
+
+    .ul-icons  {
+        transition: 0.2s;
+        opacity: 0;
+        
+    }
+    .main-div-left-titulos{
+        width: 35%;
+        transition: 0.8s;
+        position: relative;
+        top:10em;
+        left: 6em;
+        padding-bottom: -10em;
+    }
+
+    .left-p-igreja{
+        width: 130%;
+    }
+
+    .main-section-rigth{
+        position: absolute;
+        left: 38em;
+        width: 40%;
+        margin-bottom: -20em;
+        
+    }
+    footer {
+        
+        position: absolute;
+        bottom: 3em;
+
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .main-section-rigth{
+        position: absolute;
+        left: 38em;
+        width: 35%;
+        margin-bottom: -20em;
+        
+    }
+    footer {
+        position: absolute;
+        bottom: 3em;
+        margin-bottom: -8em;
+        
+    }
+}
+
+@media screen and (max-width: 1164px){
+    .header-div-nome_da_facul{
+        padding-left: 2%;
+    }
+    .header-div-logo{
+        padding-left: 2%;
+    }
+    footer {
+        position: absolute;
+        bottom: 10em;
+        
+    }
+}
+
+@media screen and (max-width: 1115px){
+    .main-section-rigth{
+        position: absolute;
+        left: 30em;
+        width: 50%;
+        margin-bottom: -20em;
+        
+    }
+    .main-div-left-titulos{
+        width: 20%;
+        transition: 0.8s;
+        position: relative;
+        top:12em;
+        left: 2em;
+        padding-bottom: -10em;
+    }
+
+    .left-p-cursos{
+
+        transition: 0.2s;
+        opacity: 0;
+
+    }
+
+    .left-p-igreja{
+        width: 130%;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 10em;
+        
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .header-div-nome_da_facul{
+        transition: 0.2s;
+        transform:translateX(-6em) ;
+        opacity: 0;
+    }
+    .header-div-logo{
+        padding-left: 6%;
+    }
+
+    .main-section-rigth{
+        position: absolute;
+        left: 38em;
+        width: 50%;
+        margin-bottom: -20em;
+        
+    }
+    .main-div-left-titulos{
+        width: 20%;
+        transition: 0.8s;
+        position: relative;
+        top:10em;
+        left: 4em;
+        padding-bottom: -10em;
+    }
+
+    .left-p-igreja{
+        width: 130%;
+    }
+}
